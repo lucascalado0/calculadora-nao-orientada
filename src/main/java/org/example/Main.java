@@ -1,9 +1,10 @@
 package org.example;
 import java.util.Scanner;
+import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
         double numero1, numero2;
 
